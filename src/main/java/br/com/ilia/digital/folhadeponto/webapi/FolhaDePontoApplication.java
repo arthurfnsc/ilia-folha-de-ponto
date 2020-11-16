@@ -1,4 +1,4 @@
-package br.com.ilia.digital.folhadeponto;
+package br.com.ilia.digital.folhadeponto.webapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
