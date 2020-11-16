@@ -1,0 +1,1 @@
+INSERT INTO pessoa(pessoa_id,nome,jornada) VALUES (0,'Usuario Padrao',8);
