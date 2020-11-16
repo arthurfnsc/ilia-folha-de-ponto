@@ -1,4 +1,4 @@
-package br.com.ilia.digital.folhadeponto;
+package br.com.ilia.digital.folhadeponto.webapi.core.controller;
 
 import java.util.Optional;
 import javax.validation.Valid;
