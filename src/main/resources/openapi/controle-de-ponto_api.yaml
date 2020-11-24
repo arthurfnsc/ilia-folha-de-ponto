@@ -38,9 +38,10 @@ components:
           format: date
         horarios:
           type: array
+          example: ["08:00:00", "12:00:00", "13:00:00", "18:00:00"]
           items:
             type: string
-            example: "['08:00:00', '12:00:00', '13:00:00', '18:00:00']"
+
     Relatorio:
       type: object
       description: Relatório mensal
@@ -131,7 +132,7 @@ paths:
               schema:
                 $ref: "#/components/schemas/Mensagem"
               examples:
-                Horários já registrado:
+                Horário já registrado:
                   value:
                     mensagem: Horários já registrado
   /v1/alocacoes:
